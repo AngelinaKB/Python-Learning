@@ -1,7 +1,8 @@
+# calculate the circumference of a circle
 import math 
 
 # c = 2*pie*r
-radius = int(input("Enter the radius: "))
+radius = float(input("Enter the radius: "))
 circumference = 2 * math.pi * radius
 
-print(f"The circumference is: {round(circumference, 2)cm}")
+print(f"The circumference is: {round(circumference, 2)}cm")
