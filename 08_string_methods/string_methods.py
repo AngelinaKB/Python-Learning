@@ -36,8 +36,4 @@ print("Split:", text.split())
 print("Split by 'o':", text.split("o"))
 print("Join with '-':", "-".join(["a", "b", "c"]))
 
-# 6. Alignment
-print("Center:", "Hi".center(10, "-"))
-print("LJust:", "Hi".ljust(10, "-"))
-print("RJust:", "Hi".rjust(10, "-"))
-print("Zfill:", "42".zfill(5))
+
