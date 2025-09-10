@@ -1,7 +1,7 @@
 # Sample string
 text = "  Hello World 123  "
 
-print("Original:", repr(text))
+print("Original:", repr(text)) # gives a "raw" view of the string
 
 # 1. Case Conversion
 print("Upper:", text.upper())
