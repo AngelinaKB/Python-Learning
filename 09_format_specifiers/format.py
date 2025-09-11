@@ -1,8 +1,8 @@
 # format specifiers = {value:flags} format a value based on what
 #                              flags are inserted
 
-# .(number)f = round to that many decimal places (fixed point)
-# :(number) = allocate that many spaces
+# .(digit)f = round to that many decimal places (fixed point)
+# :(digit) = allocate that many spaces
 # :03 = allocate and zero pad that many spaces
 # :< = left justify
 # :> = right justify
@@ -69,4 +69,5 @@ print(f"Price 3 is {price3: }")
 print("\n comma seperated 1000's place")
 print(f"Price 1 is {price1:,}")
 print(f"Price 2 is {price2:+,.2f}")
+
 print(f"Price 3 is {price3:+,.3f}")
