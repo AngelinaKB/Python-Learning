@@ -14,5 +14,6 @@ fruits.index("apple")
 # count of elements
 fruits.count("coconuts")
 
+# iterate over tuple
 for x in fruits:
     print(x)
