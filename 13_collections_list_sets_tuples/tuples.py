@@ -2,10 +2,6 @@
 fruits = ("apple", "banana", "orange", "pear", "coconuts", "coconuts")
 print("Tuple:", fruits)
 
-# -------------------------------
-# Basic Tuple Operations
-# -------------------------------
-
 # Length of tuple
 print(len(fruits))
 
@@ -22,9 +18,7 @@ print(fruits.count("coconuts"))
 for fruit in fruits:
     print(fruit)
 
-# -------------------------------
 # Built-in Functions
-# -------------------------------
 
 # Maximum and minimum (alphabetical order for strings)
 print(max(fruits))
@@ -39,9 +33,6 @@ print(sum(numbers))
 print(max(numbers))
 print(min(numbers))
 
-# -------------------------------
-# Tuple Operations
-# -------------------------------
 
 # Concatenation
 new_fruits = fruits + ("grapes", "mango")
@@ -53,4 +44,5 @@ print(fruits * 2)
 # Slicing
 print(fruits[:3])
 print( fruits[-2:])
+
 
