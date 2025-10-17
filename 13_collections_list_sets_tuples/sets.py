@@ -1,22 +1,25 @@
-# cant index a set
+# create a set
+fruits = {"apple", "banana", "orange", "pear"}
 
-fruits =  {"apple", "banana", "orange", "pear"}
-print(fruits)
+# length of set
+len(fruits)
 
-# find length of set
-print(len(fruits))
-
-# find if an element in list,  gives boolean answer 
-print("apple" in fruits)
+# check membership
+"apple" in fruits
+"grapes" in fruits
 
 # add elements
-fruits.add("pineapple")
+fruits.add("pineapple") # Used to add a single element to a set
+fruits.update(["mango", "kiwi"]) # Used to add multiple elements (from any iterable) at once.
 
 # remove elements
 fruits.remove("apple")
+fruits.discard("grapes")  # no error if element not found
+fruits.pop()               # removes a random element
 
-# remove whatever element is first, randomized 
-fruits.pop()
-
-# clear 
+# copy and clear
+copy_set = fruits.copy()
 fruits.clear()
+
+# frozen set example
+frozen = frozenset(["apple", "banana", "cherry"])
