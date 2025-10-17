@@ -3,58 +3,86 @@
 # Set {} = unordered and immutable, but Add/Remove OK. NO duplicates.
 # Tuple () = ordered and unchangeable. Duplicates OK. Faster than lists
 
-fruits =  ["apple", "banana", "orange", "pear"]
-# indexing a list
-print(fruits[-1])
+# Creating and Accessing Elements
+fruits = ["apple", "banana", "orange", "pear"]
 
-# index range
-print(fruits[:3])
+ # Access last element
+fruits[-1]       
+# Access elements from index 0 to 2
+fruits[:3]        
+# Access every 2nd element
+fruits[::2]       
 
-# adding a step
-print(fruits[::2])
+# Loop through list
+for x in fruits:  
+    print(x)
 
-# loop a list
-for x in fruits:
-  print(x)
+# Length of list
+len(fruits)             
 
-# in-built functions
-# gives length of list
-print(len(fruits))
+# Check if element exists
+"apple" in fruits      
 
-# find if an element in list,  gives boolean answer 
-print("apple" in fruits)
+# Find index of element
+fruits.index("apple")    
 
-# change values after creation
-fruits[0]="pineapple"
-for x in fruits:
-  print(x)
-  
-# append element
-fruits.append("jackfruit")
-print(fruits)
+# Count occurrences
+fruits.count("apple")    
 
-# remove element
-fruits.remove("jackfruit")
-print(fruits)
+# Change value at index
+fruits[0] = "pineapple"          
 
-# insert element at certain postion
-fruits.insert(2,"watermelon")
-print(fruits)
+# Add at end
+fruits.append("jackfruit")          
 
-# sort the list
-fruits.sort()
-print(fruits)
+# Insert at index
+fruits.insert(2, "watermelon") 
 
-# reverse a list
-fruits.reverse()
-print(fruits)
+# Add multiple elements
+fruits.extend(["grapes", "melon"])  
 
-# index of an element
-print(fruits.index("pineapple"))
+# Remove by value
+fruits.remove("banana")   
 
-# count number of elements
-print(fruits.count("apple"))
+# Remove last element
+fruits.pop()              
 
-# clear a list
-fruits.clear()
-print(fruits)
+# Remove by index
+fruits.pop(1)    
+
+# Delete element by index
+del fruits[0]            
+
+# Remove all elements
+fruits.clear()          
+
+ # Sort ascending
+fruits.sort()               
+
+# Sort descending
+fruits.sort(reverse=True)       
+
+# Reverse order
+fruits.reverse()               
+
+# Shallow copy
+copy_list = fruits.copy()   
+
+# Join two lists
+new_list = fruits + ["kiwi"]    
+
+# Repeat list elements
+fruits *= 2                     
+
+numbers = [10, 20, 5, 15]
+#  Maximum value
+max(numbers)  
+
+# Minimum value
+min(numbers)  
+
+# Sum of all elements
+sum(numbers)     
+
+# Returns a sorted copy (does not modify original)
+sorted(numbers)  
