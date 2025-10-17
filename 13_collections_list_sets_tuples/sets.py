@@ -22,4 +22,5 @@ copy_set = fruits.copy()
 fruits.clear()
 
 # frozen set example
-frozen = frozenset(["apple", "banana", "cherry"])
+frozen = frozenset(["apple", "banana", "cherry"]) # You can’t add, remove, or update elements.
+
