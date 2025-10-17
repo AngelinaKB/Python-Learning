@@ -1,19 +1,56 @@
+# Create a tuple
+fruits = ("apple", "banana", "orange", "pear", "coconuts", "coconuts")
+print("Tuple:", fruits)
 
-fruits =  ("apple", "banana", "orange", "pear","coconuts","coconuts")
-print(fruits)
+# -------------------------------
+# Basic Tuple Operations
+# -------------------------------
 
-# find length of tuple
+# Length of tuple
 print(len(fruits))
 
-# find if an element in list,  gives boolean answer 
-print("apple" in fruits)
+# Check if an element exists (returns boolean)
+print("Is 'apple' in tuple?:", "apple" in fruits)
 
-# find index of element
-fruits.index("apple")
+# Find index of an element
+print(fruits.index("apple"))
 
-# count of elements
-fruits.count("coconuts")
+# Count how many times an element appears
+print(fruits.count("coconuts"))
 
-# iterate over tuple
-for x in fruits:
-    print(x)
+# Iterate over tuple
+for fruit in fruits:
+    print(fruit)
+
+# -------------------------------
+# Built-in Functions
+# -------------------------------
+
+# Maximum and minimum (alphabetical order for strings)
+print(max(fruits))
+print(min(fruits))
+
+# Sorting the tuple (returns a list)
+print(sorted(fruits))
+
+# Sum function (works only with numbers)
+numbers = (5, 10, 15, 20)
+print(sum(numbers))
+print(max(numbers))
+print(min(numbers))
+
+# -------------------------------
+# Tuple Operations
+# -------------------------------
+
+# Concatenation
+new_fruits = fruits + ("grapes", "mango")
+print(new_fruits)
+
+# Repetition
+print(fruits * 2)
+
+# Slicing
+print(fruits[:3])
+print( fruits[-2:])
+
