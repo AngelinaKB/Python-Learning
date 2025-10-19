@@ -1,5 +1,5 @@
 vegetables = ["celery", "carrots", "potatoes"]
-meats =      ["chicken", "fish", "turkey"]
+meats =      ("chicken", "fish", "turkey")
 
 groceries = [["apple", "orange", "banana", "coconut"], vegetables, meats]
 
@@ -14,4 +14,5 @@ for collection in groceries:
 # to iterate over elements inside each list
 for collection in groceries:
   for food in collection:
-    print(food)
+    print(food, end=" ")
+  print()
