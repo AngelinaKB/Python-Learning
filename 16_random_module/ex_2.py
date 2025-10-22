@@ -21,4 +21,4 @@ elif player == "Scissors" and computer == "Paper":
 elif player == "Paper" and computer == "Rock":
     print("You win! :D")
 else: 
-    print("You lost! : ")
+    print("You lost! D: ")
