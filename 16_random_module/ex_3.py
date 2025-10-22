@@ -51,4 +51,9 @@ DIE_ART = {
 }
 
 
+dice = []
+total = 0
+num_of_dice = int(input("How many dice?: "))
 
+for die in  
+dice.append(random.randint(1,6))
