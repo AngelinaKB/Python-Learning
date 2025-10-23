@@ -12,4 +12,9 @@ happy_birthday("Steve",30)
 happy_birthday("Joe",40)
 
 
+def display_invoce(username, amount, due_date):
+    print(f"Hello {username}")
+    print(f"Your bill of ${amount:.2f} is due on: {due_date}")
+    
+display_invoce("ashlynx3", 42.544,"01/03")
 
