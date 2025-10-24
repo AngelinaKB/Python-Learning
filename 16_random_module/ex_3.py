@@ -1,4 +1,4 @@
-# Dice-Roller progra
+# Dice-Roller program
 
 import random
 
