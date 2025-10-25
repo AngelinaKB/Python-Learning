@@ -21,5 +21,5 @@ def count(end, start= 0,): # non default arguments should be before default argu
         
     print("done")
 
-# print(count(5))
+print(count(5))
 print(count(30,15))
