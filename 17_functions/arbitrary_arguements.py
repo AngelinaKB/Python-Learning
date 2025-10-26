@@ -1,5 +1,4 @@
 # *args = allows you to pass multiple non-key arguements  , packs into tuple
-# **kwargs = allows you to pass multiple keyword-arguements , packs into dictionary
 #            * unpacking operator
 #               
 
