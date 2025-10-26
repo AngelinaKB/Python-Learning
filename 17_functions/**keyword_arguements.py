@@ -1,4 +1,5 @@
-#   **kwargs = keyword arguements 
+
+# **kwargs = allows you to pass multiple keyword-arguements , packs into dictionary
 
 
 def print_address(**kwargs):
